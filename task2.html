@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form>
+      <div>
+        <label for="name"> Name </label>
+        <input type="text" id="name" placeholder="type your name..." required />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="type your email..."
+          required
+        />
+      </div>
+      <label for="password">Password</label>
+      <input
+        type="password"
+        id="password"
+        placeholder="type password...
+      "
+        required
+      />
+      <br /><br />
+      <button type="submit">Submit</button> <button type="reset">Reset</button>
+      <br /><br />
+      <div>
+        <label for="Skills">Skills</label><br />
+        <input type="checkbox" id="html" /><label for="html">HTML</label><br />
+        <input type="checkbox" id="css" /><label for="css">CSS</label><br />
+        <input type="checkbox" id="js" /><label for="js">JS</label>
+      </div>
+
+      <div>
+        <label for="country">Country Name</label>
+        <select name="country" id="country" required>
+          Country Name
+          <option value="">select one</option>
+          <option value="pakistan">Pakistan</option>
+          <option value="bangladesh">Bangladesh</option>
+          <option value="srilanka">Sri Lanka</option>
+          <option value="dubai">Dubai</option>
+        </select>
+      </div>
+    </form>
+  </body>
+</html>

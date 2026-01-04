@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>mini project</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero-section">
+        <div class="hero-text">
+          <h1 id="heading-1">Ashik Mahmud</h1>
+          <p>
+            I'm student of programming hero web development level one of 13th
+            batch. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Alias, cumque.
+          </p>
+          <div>
+            <h2 class="heading-2">Skills</h2>
+            <ol class="ordered-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+            </ol>
+          </div>
+          <div>
+            <h2 class="heading-2">Hobbies</h2>
+            <ul class="unordered-list">
+              <li>Learn</li>
+              <li>Earn</li>
+              <li>Peace</li>
+            </ul>
+          </div>
+          <div class="btn">
+            <a href="www.github.com/ashikurrahmanprogrammer/">Check GitHub</a>
+          </div>
+        </div>
+        <div class="img-1">
+          <img src="./images/Ashik Mahmud.png" alt="profile" />
+        </div>
+      </div>
+
+      <!-- contact -->
+      <div class="contact">
+        <h2 id="heading-2">Contact Us</h2>
+
+        <form class="form">
+          <!-- Name -->
+          <div class="input-type">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Type your name..."
+              required
+            />
+          </div>
+
+          <!-- Email -->
+          <div class="input-type">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Type your email..."
+              required
+            />
+          </div>
+
+          <!-- Password -->
+          <div class="input-type">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Type your password..."
+              required
+            />
+          </div>
+
+          <div class="input-type skills">
+            <label>Skills</label>
+
+            <div class="chk">
+              <input type="checkbox" id="html" name="skills[]" value="html" />
+              <label for="html">HTML</label>
+            </div>
+
+            <div class="chk">
+              <input type="checkbox" id="css" name="skills[]" value="css" />
+              <label for="css">CSS</label>
+            </div>
+
+            <div class="chk">
+              <input type="checkbox" id="js" name="skills[]" value="js" />
+              <label for="js">JavaScript</label>
+            </div>
+          </div>
+
+          <!-- Country -->
+          <div class="input-type">
+            <label for="country">Country</label>
+            <select name="country" id="country" required>
+              <option value="">Select one</option>
+              <option value="pakistan">Pakistan</option>
+              <option value="bangladesh">Bangladesh</option>
+              <option value="srilanka">Sri Lanka</option>
+              <option value="dubai">Dubai</option>
+            </select>
+          </div>
+
+          <!-- Buttons -->
+          <div class="input-type">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
