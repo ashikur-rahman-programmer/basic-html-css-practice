@@ -1,0 +1,55 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #08215f, rgb(8, 46, 16));
+}
+h1 {
+  font-size: 32px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 40px 0;
+}
+.section-cards {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.card {
+  /* flex: 1 1 350px; */
+  max-width: 350px;
+  background: linear-gradient(180deg, #ff0404, #220000);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 4px 15px #130000;
+}
+.card-text {
+  padding: 15px;
+  line-height: 1.4;
+}
+.card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  /* object-position: center; */
+}
+.card h2 {
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+.card h3 {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.card h3 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: serif;
+}
